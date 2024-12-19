@@ -1,0 +1,64 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full-Screen Background Section */
+#background-section {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #000000af; /* Fallback background color */
+    background-image: 
+        url('images/imagesbg1.jpg.png'),
+        url('images/imagesbg2.jpg.png'),
+        url('images/imagesbg4.jpg.png'),
+        url('images/imagesbg3.jpg.png');
+    background-size: 50% 50%; /* Each image covers 1/4 of the screen */
+    background-position: 
+        top left, 
+        top right, 
+        bottom left, 
+        bottom right;
+    background-repeat: no-repeat;
+    color: #fff; /* White text for readability */
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#quote-box {
+    font-size: 1.5rem;
+    font-style: italic;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+/* Charts Section */
+#charts-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#charts-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.chart-container {
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
